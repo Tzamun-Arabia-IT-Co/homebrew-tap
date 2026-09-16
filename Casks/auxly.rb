@@ -4,21 +4,21 @@ cask "auxly" do
 
   on_macos do
     on_arm do
-      sha256 "80c1c751e7279e295f4d2bbddd73811dfb4702f311f99b325dcb89fd42d5cbfb"
+      sha256 "daa2ef1fc659ec8bd42b8f8d5890f7dc3c346a79f38a7caedca206ab6547a810"
       url "https://github.com/Tzamun-Arabia-IT-Co/auxly-memory-cli/releases/download/v#{version}/auxly-cli_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "0326b81365f1e435aa1e1990fcecd0c0cac5b2211d82927c98758fa5513f0729"
+      sha256 "952c4e0ed63ef203cbed630b23a47bd09958ec946d8d8b4c6ac9d4fccdbe8893"
       url "https://github.com/Tzamun-Arabia-IT-Co/auxly-memory-cli/releases/download/v#{version}/auxly-cli_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "eae9619885e825670698a78c1c4b2f741fa4192be91d031efb63b589f55134d2"
+      sha256 "1c177860fa824b2f5d724b7def6b6886e4c2f43e90b4f49c1a20ce766c0b7e4d"
       url "https://github.com/Tzamun-Arabia-IT-Co/auxly-memory-cli/releases/download/v#{version}/auxly-cli_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "df23b5b972e6bdc4aa93daef4706c1e70b7d66fc329348e3eb9988227dcc4858"
+      sha256 "f496cfb417562d1a4beee08c00d7549b882d32c42806e882a043c96c6f59a6a1"
       url "https://github.com/Tzamun-Arabia-IT-Co/auxly-memory-cli/releases/download/v#{version}/auxly-cli_linux_amd64.tar.gz"
     end
   end
